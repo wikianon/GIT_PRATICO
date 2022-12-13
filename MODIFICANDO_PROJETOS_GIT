@@ -1,0 +1,13 @@
+## Adicionando uma modificação ao projeto no github
+
+bash$ echo "nova modificação" >> HEADME.md
+
+bash$ git status
+
+bash$ git add .
+
+bash$ git commit -m "nova modificação linha"
+
+bash$ git push
+
+## Depois disso digite o usuario e copie e cole o Token.
