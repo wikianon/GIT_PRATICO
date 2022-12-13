@@ -51,5 +51,4 @@ ou
 
 bash$ git push --set-upstream origin master
 
-# Agora digite o seu usuario e copie e cole o Token do seu usuario github 
-no terminal.
+# Agora digite o seu usuario e copie e cole o Token do seu usuario github no terminal.
