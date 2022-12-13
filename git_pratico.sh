@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Script para criar subir projeto local
+# para repositório remoto github.com
+
 
 GIT=$(which git)
 
