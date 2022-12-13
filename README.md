@@ -28,13 +28,13 @@ bash$ git push
 
 Depois disso digite o usuario e copie e cole o Token.
 
-#########################################################
-## A segunda forma seria:
-## Entre no https://github.com/
 
-## Clique no + New Repository >> de um nome que será o nome usado 
-## em seu projeto no computador no nosso caso é <teste>
-## com isso será gerada a url abaixo:
+## A segunda forma seria:
+# Entre no https://github.com/
+
+# Clique no + New Repository >> de um nome que será o nome usado 
+# em seu projeto no computador no nosso caso é <teste>
+# com isso será gerada a url abaixo:
 
 #https://github.com/<meu_usuario_git>/teste.git
 
@@ -42,8 +42,8 @@ Depois disso digite o usuario e copie e cole o Token.
 
 bash$ git clone https://github.com/<meu_usuario_git>/teste.git
 
-## após isso é só jogar a sua estrutura do projeto dentro da pasta <teste>
-## e digitar os seguintes comandos abaixo:
+# após isso é só jogar a sua estrutura do projeto dentro da pasta <teste>
+# e digitar os seguintes comandos abaixo:
 
 bash$ cd teste
 
@@ -64,9 +64,8 @@ bash$ git commit -m "comentario sobre o codigo"
 
 bash$ git push
 
-## Agora digite seu usuario copie seu codigo Token e cole no terminal do linux ao pedir
+# Agora digite seu usuario copie seu codigo Token e cole no terminal do linux ao pedir
 
-#########################################################
 
 ## Opção mais pratica.
 
