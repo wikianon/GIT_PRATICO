@@ -14,8 +14,7 @@ bash$ git remote add origin https://github.com/wikianon/GIT_PRATICO.git
 
 bash$ git push -u origin master
 
-#########################################################
-Adicionando uma modificação ao projeto no github pelo terminal
+## Adicionando uma modificação ao projeto no github pelo terminal
 
 bash$ echo "nova modificação" >> HEADME.md
 
@@ -34,7 +33,7 @@ Depois disso digite o usuario e copie e cole o Token.
 ## Entre no https://github.com/
 
 ## Clique no + New Repository >> de um nome que será o nome usado 
-## em seu projeto no computador no nosso caso é <teste>.
+## em seu projeto no computador no nosso caso é <teste>
 ## com isso será gerada a url abaixo:
 
 #https://github.com/<meu_usuario_git>/teste.git
