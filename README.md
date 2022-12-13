@@ -45,6 +45,10 @@ bash$ git commit -m "comentario sobre o projeto"
 
 bash$ git remote add origin https://github.com/wikianon/teste_codigos.git
 
+bash$ git push -u origin master
+
+ou
+
 bash$ git push origin master
 
 ou 
