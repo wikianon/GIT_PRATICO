@@ -1,3 +1,16 @@
+Primeiro instale o git:
+
+bash$ sudo apt install git
+
+## Agora configure:
+
+bash$ git config --global user.name seu_nome_de_usuario
+
+bash$ git config --global user.email seu@email.com
+
+bash$ git config --global core.editor nano
+
+
 ## Primeira opção para criação de projetos Git:
 
 bash$ echo "# GIT_PRATICO" >> README.md
