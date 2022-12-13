@@ -30,20 +30,20 @@ Depois disso digite o usuario e copie e cole o Token.
 
 
 ## A segunda forma seria:
-# Entre no https://github.com/
+Entre no https://github.com/
 
-# Clique no + New Repository >> de um nome que será o nome usado 
-# em seu projeto no computador no nosso caso é <teste>
-# com isso será gerada a url abaixo:
+Clique no + New Repository >> de um nome que será o nome usado 
+em seu projeto no computador no nosso caso é <teste>
+com isso será gerada a url abaixo:
 
-#https://github.com/<meu_usuario_git>/teste.git
+https://github.com/<meu_usuario_git>/teste.git
 
 ## Agora copie a url abra o terminal linux e digite o seguinte comando
 
 bash$ git clone https://github.com/<meu_usuario_git>/teste.git
 
-# após isso é só jogar a sua estrutura do projeto dentro da pasta <teste>
-# e digitar os seguintes comandos abaixo:
+Após isso é só jogar a sua estrutura do projeto dentro da pasta <teste>
+e digitar os seguintes comandos abaixo:
 
 bash$ cd teste
 
@@ -107,4 +107,4 @@ ou
 
 bash$ git push --set-upstream origin master
 
-# Agora digite o seu usuario e copie e cole o Token do seu usuario github no terminal.
+## Agora digite o seu usuario e copie e cole o Token do seu usuario github no terminal.
