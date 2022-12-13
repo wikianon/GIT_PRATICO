@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ACESS_TOKEN="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"
+ACESS_TOKEN="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"
 
 GIT=$(which git)
 
@@ -24,6 +24,10 @@ GIT_LINK=$LINK/$USER_GIT
 
 $GIT init
 
+##Cria um README caso o projeto nao tenha ou modifica o
+echo "## README $PROJECT_NAME" >> README.md
+
+
 $GIT add .
 
 echo "Digite um comentario sobre o que voçẽ fez no projeto"
@@ -42,6 +46,4 @@ $GIT remote add origin $GIT_LINK/$PROJECT_NAME.git
 
 $GIT commit -m "$COMENTARIO"
 
-
-echo "Agora digite git push origin master e entre com seu usuario e o Token"
-exit
+$GIT push origin master
