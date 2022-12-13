@@ -6,17 +6,14 @@ https://stackoverflow.com/questions/28385884/how-to-create-repository-in-github-
 ## Criando repositorio remoto no github pelo terminal linux User Account:
 
 ## Comando OK
-curl -i -u username:token -d "{\"name\":\"<repository_name>\",\"private\":false}" https://api.github.com/user/repos
-
-
-curl -i -u wikianon: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 -d "{\"name\":\"repositorio_teste\",\"private\":false}" https://api.github.com/user/repos
+curl -i -u username:token -d "{\\"name\\":\\"<repository_name>\\",\\"private\\":false}" https://api.github.com/user/repos
 
 
 ## Outro comando OK
-curl -i -H "Authorization: token YOUR TOKEN" -d "{\"name\":\"<repository_name>\",\"private\":false}" https://api.github.com/user/repos
+curl -i -H "Authorization: token YOUR TOKEN" -d "{\\"name\\":\\"<repository_name>\\",\\"private\\":false}" https://api.github.com/user/repos
 
 
-curl -i -H "Authorization: token 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" -d "{\"name\":\"novo_repo\",\"private\":false}" https://api.github.com/user/repos
+curl -i -H "Authorization: token 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" -d "{\\"name\\":\\"novo_repo\\",\\"private\\":false}" https://api.github.com/user/repos
 
 
 ## Outro comando OK
