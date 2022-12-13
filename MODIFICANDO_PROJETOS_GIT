@@ -14,6 +14,7 @@ bash$ git push
 
 
 ### Removendo uma pasta local no projeto git.
+https://pt.stackoverflow.com/questions/110101/deletar-pastas-no-github
 
 ## Primeiro certifique-se que o seu repositório 
 ## está sincronizado com o repositório remoto: 
