@@ -8,20 +8,16 @@ https://stackoverflow.com/questions/28385884/how-to-create-repository-in-github-
 ## Comando OK
 curl -i -u username:token -d "{\\"name\\":\\"<repository_name>\\",\\"private\\":false}" https://api.github.com/user/repos
 
+VAR_TOKEN="MY_TOKEN"
+PROJECT_NAME="projeto_teste"
 
 ## Outro comando OK
-curl -i -H "Authorization: token YOUR TOKEN" -d "{\\"name\\":\\"<repository_name>\\",\\"private\\":false}" https://api.github.com/user/repos
-
-
-curl -i -H "Authorization: token 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" -d "{\\"name\\":\\"novo_repo\\",\\"private\\":false}" https://api.github.com/user/repos
+curl -i -H "Authorization: token $VAR_TOKEN" -d "{\\"name\\":\\"$PROJECT_NAME\\",\\"private\\":false}" https://api.github.com/user/repos
 
 
 ## Outro comando OK
 
 curl -H "Authorization: token ACCESS_TOKEN" --data '{"name":"NEW_REPO_NAME"}' https://api.github.com/user/repos
-
-curl -H "Authorization: token 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" --data '{"name":"NEW_REPO_NAME"}' https://api.github.com/user/repos
-
 
 
 ## Organization:
