@@ -23,7 +23,7 @@ bash$ git config --list
 
 bash$ nano ~/.gitconfig
 
-### Cole as configuraçoes abaixo:
+### Cole as configuraçoes mais basicas abaixo:
 
 [user]
 
@@ -44,6 +44,63 @@ bash$ nano ~/.gitconfig
 
 ### Modifique seu email e name
 clique em CTRL+X e S
+
+
+
+## Se preferir pode colocar configuraçoes mais completas como as configurações abaixo:
+
+[user]
+
+       name = Jean Zonta
+
+       email = jeanzonta777@hotmail.com.br
+
+       username = wikianon
+
+[core]
+
+       editor = nano
+
+[merge]
+
+       tool = diff
+
+[push]
+
+       default = matching
+
+[web]
+
+       browser = mozilla-firefox
+
+[color "branch"]
+
+       current = yellow bold
+
+       local = green bold
+
+       remote = cyan bold
+
+[color "diff"]
+
+       meta = yellow bold
+
+       frag = magenta bold
+
+       old = red bold
+
+       new = green bold
+
+       whitespace = red reverse
+
+[color "status"]
+
+       added = green bold
+
+       changed = yellow bold
+
+       untracked = red bold
+
 
 
 ## Primeira opção para criação de projetos Git:
