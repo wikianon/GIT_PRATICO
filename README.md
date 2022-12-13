@@ -27,12 +27,16 @@ bash$ nano ~/.gitconfig
 
 [user]
         email = jeanzonta777@hotmail.com.br
+
         name = wikianon
 
 [color]
         status = auto
+
         branch = auto
+
         interactive = auto
+
         diff = auto
 
 
