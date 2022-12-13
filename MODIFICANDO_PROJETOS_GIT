@@ -10,4 +10,26 @@ bash$ git commit -m "nova modificação linha"
 
 bash$ git push
 
-## Depois disso digite o usuario e copie e cole o Token.
+## Depois disso digite o usuario copie e cole o Token.
+
+
+### Removendo uma pasta local no projeto git.
+
+## Primeiro certifique-se que o seu repositório 
+## está sincronizado com o repositório remoto: 
+
+bash$ git pull origin master, (supondo que o branch seja master).
+
+## Então remova a pasta localmente: 
+
+bash$ git rm -r pasta1 pasta2
+
+## Agora faça um commit das modificações: 
+
+bash$ git commit -m "Remove pastas pasta1 e pasta2"
+
+
+## Sincronize com repositório remoto: 
+
+bash$ git push origin master
+
