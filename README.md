@@ -46,7 +46,7 @@ Depois disso digite o usuario e copie e cole o Token.
 Entre no https://github.com/
 
 Clique no + New Repository >> de um nome que será o nome usado 
-em seu projeto no computador no nosso caso é o projeto <teste>
+em seu projeto no computador no nosso caso é o projeto "teste"
 com isso será gerada a url abaixo:
 
 https://github.com/<meu_usuario_git>/teste.git
