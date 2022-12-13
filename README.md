@@ -4,11 +4,39 @@ bash$ sudo apt install git
 
 ## Agora configure:
 
-bash$ git config --global user.name seu_nome_de_usuario
+bash$ git config --global user.name "seu_nome_de_usuario"
 
-bash$ git config --global user.email seu@email.com
+bash$ git config --global user.email "seu@email.com"
 
 bash$ git config --global core.editor nano
+
+bash$ git config --global color.branch "auto"
+
+bash$ git config --global color.interactive "auto"
+
+bash$ git config --global color.diff "auto"
+
+bash$ git config --list
+
+
+## Ou se preferir edite o arquivo ~/.gitconfig
+
+bash$ nano ~/.gitconfig
+
+### Cole as configuraçoes abaixo:
+
+[user]
+        email = jeanzonta777@hotmail.com.br
+        name = wikianon
+[color]
+        status = auto
+        branch = auto
+        interactive = auto
+        diff = auto
+
+
+### Modifique seu email e name
+clique em CTRL+X e S
 
 
 ## Primeira opção para criação de projetos Git:
@@ -28,6 +56,7 @@ bash$ git remote add origin https://github.com/wikianon/GIT_PRATICO.git
 bash$ git push -u origin master
 
 ## Adicionando uma modificação ao projeto no github pelo terminal
+
 
 bash$ echo "nova modificação" >> HEADME.md
 
