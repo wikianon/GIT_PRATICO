@@ -135,22 +135,6 @@ bash$ git push -u origin master
 
 Depois disso digite o usuario e copie e cole o Token.
 
-## Adicionando uma modificação ao projeto no github pelo terminal
-
-
-bash$ echo "nova modificação" >> HEADME.md
-
-bash$ git status
-
-bash$ git add .
-
-bash$ git commit -m "nova modificação linha"
-
-bash$ git push
-
-Depois disso digite o usuario e copie e cole o Token.
-
-
 ## A segunda forma seria:
 Entre no https://github.com/
 
@@ -229,4 +213,21 @@ ou
 
 bash$ git push --set-upstream origin master
 
-## Agora digite o seu usuario e copie e cole o Token do seu usuario github no terminal.
+Agora digite o seu usuario e copie e cole o Token do seu usuario github no terminal.
+
+
+## Adicionando uma modificação ao projeto no github pelo terminal
+
+
+bash$ echo "nova modificação" >> HEADME.md
+
+bash$ git status
+
+bash$ git add .
+
+bash$ git commit -m "nova modificação linha"
+
+bash$ git push
+
+Depois disso digite o usuario e copie e cole o Token.
+
