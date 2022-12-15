@@ -113,8 +113,8 @@ com isso será gerada a url abaixo:
 
 https://github.com/<meu_usuario_git>/GIT_PRATICO.git
 
-## Apos isso digite os comandos abaixo em uma pasta de sua preferencia no seu computador caso ainda nao tenha criado um projeto.
-## O projeto local deve ter o mesmo nome do projeto criado no http://github.com
+## Apos isso digite os comandos abaixo em uma pasta de sua preferencia no seu computador caso ainda nao tenha criado um projeto, o projeto local deve ter o mesmo nome do projeto criado no http://github.com
+
 bash$ mkdir GIT_PRATICO
 
 bash$ cd GIT_PRATICO
