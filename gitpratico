@@ -30,11 +30,6 @@ DIRVAZIO=$(ls -1 | wc -l)
 if [[ $DIRVAZIO -eq 0 ]]; then 
 ##Cria um README caso o projeto nao tenha nada na pasta ainda
 echo "## README $PROJECT_NAME" >> README.md
-
-else 
-
-echo "README existe";
-
 fi
 
 ## Adiciona os arquivos existentes na pasta
