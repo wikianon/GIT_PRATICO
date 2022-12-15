@@ -25,4 +25,7 @@ CTRL+SHIFT+I
 
 ## Apos isso digite:
 
-bash$ CTRL+X e S para sair e salvar as modificaçoes do script
+CTRL+X e S para sair e salvar as modificaçoes do script
+
+## Apos isso entre na pasta local do seu projeto 
+no computador ou notebook e execute o comando "gitpratico".
