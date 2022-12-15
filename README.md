@@ -177,19 +177,21 @@ Agora digite seu usuario copie seu codigo Token e cole no terminal do linux ao p
 
 Se vc tiver um projeto com o nome <teste_codigos> por exemplo faça o seguinte:
 
-Entre no seu https://github.com/<usuario_git> crie um repositorio exatamente com o mesmo nome:
+Copie este comando abaixo para o seu terminal linux:
+Em YOUR_TOKEN coloque a sua chave token que foi gerada no github,
+e mude NEW_REPO_NAME para o nome do seu projeto local no computador.
+ficando desta forma abaixo:
 
-Clique no + New Repository >> coloque o mesmo nome da pasta principal do seu projeto
-no nosso caso é teste_codigos.
+bash$ curl -H "Authorization: token khffkhhkçhhçk" --data '{"name":"teste_codigos"}' https://api.github.com/user/repos
 
-após isso o link abaixo será criado:
 
-https://github.com/wikianon/teste_codigos.git
+após isso o link abaixo será criado a url abaixo:
 
-Abra o terminal linux e entre dentro da pasta do seu projeto:
+https://github.com/<seu_usuario>/teste_codigos.git
 
-Agora dentro da pasta do projeto <teste_codigos> no 
+Dentro da pasta do seu projeto<teste_codigos> no 
 computador digite os comandos abaixo:
+
 
 bash$ git init
 
