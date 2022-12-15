@@ -105,6 +105,16 @@ clique em CTRL+X e S
 
 ## Primeira opção para criação de projetos Git:
 
+Entre no https://github.com/
+
+Clique no + New Repository >> de um nome que será o nome usado 
+em seu projeto no computador no nosso caso é o projeto "GIT_PRATICO"
+com isso será gerada a url abaixo:
+
+https://github.com/<meu_usuario_git>/GIT_PRATICO.git
+
+## Apos isso digite os comandos abaixo em uma pasta de sua preferencia no seu computador caso ainda nao tenha criado um projeto.
+## O projeto local deve ter o mesmo nome do projeto criado no http://github.com
 bash$ mkdir GIT_PRATICO
 
 bash$ cd GIT_PRATICO
