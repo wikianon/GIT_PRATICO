@@ -123,6 +123,8 @@ bash$ git remote add origin https://github.com/wikianon/GIT_PRATICO.git
 
 bash$ git push -u origin master
 
+Depois disso digite o usuario e copie e cole o Token.
+
 ## Adicionando uma modificação ao projeto no github pelo terminal
 
 
