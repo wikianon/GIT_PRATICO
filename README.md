@@ -105,6 +105,10 @@ clique em CTRL+X e S
 
 ## Primeira opção para criação de projetos Git:
 
+bash$ mkdir GIT_PRATICO
+
+bash$ cd GIT_PRATICO
+
 bash$ echo "# GIT_PRATICO" >> README.md
 
 bash$ git init
