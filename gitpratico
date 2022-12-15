@@ -18,7 +18,7 @@ read -p "Digite o nome da pasta original do seu projeto: " PROJECT_NAME
 
 #Este comando cria um repositorio remoto sem precisar entrar no github
 
-$CURL -i -H "Authorization: token $ACESS_TOKEN" -d "{\"name\":\"$PROJECT_NAME\",\"private\":true}" https://api.github.com/user/repos
+$CURL -i -H "Authorization: token $ACESS_TOKEN" -d "{\"name\":\"$PROJECT_NAME\",\"private\":false}" https://api.github.com/user/repos
 
 GIT_LINK=$LINK/$USER_GIT
 
