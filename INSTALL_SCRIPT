@@ -1,0 +1,28 @@
+## Instalando o script gitpratico
+
+
+bash$ sudo cp gitpratico /usr/bin/gitpratico
+
+
+## Permissao de execução do script
+
+bash$ sudo chmod 755 /usr/bin/gitpratico
+
+
+## Configurando dono do script
+
+bash$ sudo chown $USER.$USER /usr/bin/gitpratico
+
+## Agora edite o script colocando sua chave TOKEN do https://github.com na variavel ACESS_TOKEN
+
+bash$ sudo nano /usr/bin/gitpratico
+
+## Copie no site do github.com sua chave token gerada
+## e cole sua chave token nas variavel ACESS_TOKEN entre aspas
+## com o seguinte comando abaixo: 
+
+CTRL+SHIFT+I
+
+## Apos isso digite:
+
+bash$ CTRL+X e S para sair e salvar as modificaçoes do script
