@@ -180,7 +180,8 @@ Se vc tiver um projeto com o nome <teste_codigos> por exemplo faça o seguinte:
 Copie este comando abaixo para o seu terminal linux:
 Em YOUR_TOKEN coloque a sua chave token que foi gerada no github,
 e mude NEW_REPO_NAME para o nome do seu projeto local no computador.
-ficando desta forma abaixo:
+
+Ficando desta forma abaixo:
 
 bash$ curl -H "Authorization: token khffkhhkçhhçk" --data '{"name":"teste_codigos"}' https://api.github.com/user/repos
 
