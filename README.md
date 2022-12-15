@@ -186,7 +186,7 @@ bash$ git commit -m "comentario sobre o codigo"
 
 bash$ git push
 
-# Agora digite seu usuario copie seu codigo Token e cole no terminal do linux ao pedir
+Agora digite seu usuario copie seu codigo Token e cole no terminal do linux ao pedir
 
 
 ## Opção mais pratica.
