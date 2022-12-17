@@ -186,7 +186,7 @@ Ficando desta forma abaixo:
 bash$ curl -H "Authorization: token khffkhhkçhhçk" --data '{"name":"teste_codigos"}' https://api.github.com/user/repos
 
 
-após isso o link abaixo será criado a url abaixo:
+após isso o link abaixo será criado:
 
 https://github.com/<seu_usuario>/teste_codigos.git
 
