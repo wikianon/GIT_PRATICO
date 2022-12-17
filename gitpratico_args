@@ -1,0 +1,77 @@
+#!/bin/bash
+
+GIT=$(which git)
+
+CURL=$(which curl)
+
+LINK="https://github.com"
+
+function help(){
+echo "O ${0##*/} deve ser aberto dentro da pasta do projeto somente uma unica vez"
+echo
+echo "Entre com os argumentos: "
+echo
+echo "${0##*/} <user_name_git> <project_name> <your_token>"
+echo
+}
+
+USER_GIT="$1"
+PROJECT_NAME="$2"
+ACESS_TOKEN="$3"
+
+#Verifica se os tres argumentos nescessarios existem
+if [[ $# -lt 3 ]]; then
+
+help
+
+else
+#Este comando cria um repositorio remoto sem precisar entrar no github
+
+$CURL -i -H "Authorization: token $ACESS_TOKEN" -d "{\"name\":\"$PROJECT_NAME\",\"private\":false}" https://api.github.com/user/repos
+
+GIT_LINK=$LINK/$USER_GIT
+
+$GIT init
+
+#Verifica se o diretorio do projeto esta completamente vazio
+DIRVAZIO=$(ls -1 | wc -l)
+
+README=$(ls -1 README.md)
+
+if [[ $DIRVAZIO -eq 0 ]]; then 
+##Cria um README caso o projeto nao tenha nada na pasta ainda
+ echo "## README $PROJECT_NAME" >> README.md
+ echo "## Script ${0##*/} executado no projeto $PROJECT_NAME" >> README.md
+ echo "<p>O script ${0##*/} é um script para subir projetos no github," >> README.md
+ echo "desde que o seu projeto ainda não exista no repositorio.</p>" >> README.md
+ echo "https://github.com" >> README.md
+ echo "https://github.com/wikianon/GIT_PRATICO.git" >> README.md
+elif [[ -n $README ]]; then
+ echo "## Script ${0##*/} executado no projeto $PROJECT_NAME" >> $README
+ echo "<p>O script ${0##*/} é um script para subir projetos no github," >> $README
+ echo "desde que o seu projeto ainda não exista no repositorio.</p>" >> $README
+ echo "<p>https://github.com</p>" >> $README
+ echo "<p>https://github.com/wikianon/GIT_PRATICO.git</p>" >> $README
+fi
+
+## Adiciona os arquivos existentes na pasta
+$GIT add .
+
+
+echo "Digite um comentario sobre o que voçê fez no projeto"
+echo
+read -p "Entre com o comentario: " COMENTARIO
+
+
+##Comitando o projeto
+$GIT commit -m "$COMENTARIO"
+
+
+## Linkando nosso projeto local com o projeto remoto
+#
+echo "git remote add origin $GIT_LINK/$PROJECT_NAME.git"
+$GIT remote add origin $GIT_LINK/$PROJECT_NAME.git
+
+$GIT push origin master
+
+fi
