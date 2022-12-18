@@ -6,18 +6,22 @@ CURL=$(which curl)
 
 LINK="https://github.com"
 
+
+USER_GIT="$1"
+
+PROJECT_NAME="$2"
+
+ACESS_TOKEN="$3"
+
+
 function help(){
+echo
 echo "O ${0##*/} deve ser executado dentro da pasta do projeto somente uma unica vez"
 echo
-echo "Entre com os argumentos: "
-echo
-echo "${0##*/} <user_name_git> <project_name> <your_token>"
+echo "Enter: ${0##*/} <user_name_git> <project_name> <your_token>"
 echo
 }
 
-USER_GIT="$1"
-PROJECT_NAME="$2"
-ACESS_TOKEN="$3"
 
 #Verifica se os tres argumentos nescessarios existem
 if [[ $# -lt 3 ]]; then
